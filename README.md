@@ -14,7 +14,7 @@ This repo sets up a Python project with:
 
 ---
 
-## ⚡ Quick Start  
+## Quick Start  
 
 ```bash
 # Clone the repo

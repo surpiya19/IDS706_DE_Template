@@ -1,0 +1,62 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "deno",
+			"command": "run",
+			"problemMatcher": [
+				"$deno"
+			],
+			"label": "deno: run",
+			"group": "build"
+		},
+		{
+			"type": "deno",
+			"command": "lint",
+			"problemMatcher": [
+				"$deno-lint"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "deno: lint"
+		},
+		{
+			"type": "deno",
+			"command": "test",
+			"problemMatcher": [
+				"$deno-test"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "deno: test"
+		},
+		{
+			"type": "deno",
+			"command": "cache",
+			"problemMatcher": [
+				"$deno"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "deno: cache"
+		},
+		{
+			"type": "deno",
+			"command": "lint",
+			"problemMatcher": [
+				"$deno-lint"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "deno: lint"
+		}
+	]
+}
