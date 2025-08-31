@@ -73,8 +73,19 @@ print(result)
 Run all tests with:
 ```bash
 make test
+```
+---
 
+## Contributing and Continuous Integration
 
+GitHub Actions automatically runs on every push or pull request to:
+- Install dependencies
+- Lint code
+- Run tests with coverage
+The workflow is defined in **.github/workflows/main.yml.**
 
+Before submitting, be sure to
+- make lint
+- make test
 
 
