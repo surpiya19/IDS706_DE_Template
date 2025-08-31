@@ -1,8 +1,6 @@
 # IDS706_DE_Template
 ![Build Status](https://github.com/surpiya19/IDS706_DE_Template/actions/workflows/main.yml/badge.svg?branch=main)
 
-# IDS706_DE_Template  
-
 A **starter template for data engineering projects**.  
 
 This repo sets up a Python project with:
@@ -32,6 +30,21 @@ make test
 
 # Lint the code
 make lint
+
+## Functions
+
+### `say_hello`
+
+**Purpose:**  
+Provides a friendly greeting to students in the IDS class.
+
+**Usage:**
+```python
+from hello import say_hello
+
+message = say_hello("Annie")
+print(message)
+# Output: Hello, Annie, welcome to Data Engineering Systems (IDS 706)!
 
 
 
