@@ -68,12 +68,6 @@ print(result)
 - `make lint` – Lint code using Flake8.
 - `make test` – Run unit tests with pytest and generate coverage report.
 - `make clean` – Remove temporary files and caches.
-
-## Running Tests
-Run all tests with:
-```bash
-make test
-```
 ---
 
 ## Contributing and Continuous Integration
@@ -84,8 +78,13 @@ GitHub Actions automatically runs on every push or pull request to:
 - Run tests with coverage
 The workflow is defined in **.github/workflows/main.yml.**
 
-Before submitting, be sure to
+---
+
+Feel free to fork this repository and submit pull requests! 
+Before submitting, be sure to:
 - make lint
 - make test
+
+---
 
 
