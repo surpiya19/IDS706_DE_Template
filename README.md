@@ -8,7 +8,6 @@ This repo sets up a Python project with:
 - **Linting** for clean code
 - **Dockerfile** for containerization
 - **GitHub Actions** for CI/CD
-- **.vscode** settings for consistent developer experience  
 
 ---
 
@@ -38,7 +37,7 @@ make lint
 ### `say_hello`
 
 **Purpose:**  
-Provides a friendly greeting to students in the IDS class.
+Provides a greeting to students in the IDS class.
 
 **Usage:**
 ```python
