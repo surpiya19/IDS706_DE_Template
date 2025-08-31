@@ -30,6 +30,8 @@ make test
 
 # Lint the code
 make lint
+```
+---
 
 ## Functions
 
