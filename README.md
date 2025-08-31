@@ -46,6 +46,35 @@ from hello import say_hello
 message = say_hello("Annie")
 print(message)
 # Output: Hello, Annie, welcome to Data Engineering Systems (IDS 706)!
+```
+### `add`
+
+**Purpose:**  
+Calculates the sum of two integers.
+
+**Usage:**
+```python
+from hello import add
+
+result = add(2, 3)
+print(result)
+# Output: 5
+```
+---
+
+## Makefile Commands
+- `make install` – Install dependencies from `requirements.txt`.
+- `make format` – Format Python code using Black.
+- `make lint` – Lint code using Flake8.
+- `make test` – Run unit tests with pytest and generate coverage report.
+- `make clean` – Remove temporary files and caches.
+
+## Running Tests
+Run all tests with:
+```bash
+make test
+
+
 
 
 
